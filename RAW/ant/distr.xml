@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project RAW with Jar-in-Jar Loader" basedir=".">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="${basedir}/../jars/RAW.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="raw.runners.MainExecutor"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ hsqldb.jar commons-codec-1.10.jar commons-lang3-3.3.2.jar commons-cli-1.3.1.jar junit.jar org.hamcrest.core_1.3.0.v201303031735.jar guava-18.0.jar javax.json-1.0.4.jar ormlite-core-4.48.jar ormlite-jdbc-4.48.jar easymock-3.3.1.jar"/>
+            </manifest>
+            <zipfileset src="jar-in-jar-loader.zip"/>
+            <fileset dir="${basedir}/../bin"/>
+            <zipfileset dir="${basedir}/../lib" includes="hsqldb.jar"/>
+            <zipfileset dir="${basedir}/../lib" includes="commons-codec-1.10.jar"/>
+            <zipfileset dir="${basedir}/../lib" includes="commons-lang3-3.3.2.jar"/>
+            <zipfileset dir="${basedir}/../lib" includes="commons-cli-1.3.1.jar"/>
+            <zipfileset dir="/home/vic/eclipse/plugins/org.junit_4.11.0.v201303080030" includes="junit.jar"/>
+            <zipfileset dir="/home/vic/eclipse/plugins" includes="org.hamcrest.core_1.3.0.v201303031735.jar"/>
+            <zipfileset dir="${basedir}/../lib" includes="guava-18.0.jar"/>
+            <zipfileset dir="${basedir}/../lib" includes="javax.json-1.0.4.jar"/>
+            <zipfileset dir="${basedir}/../lib" includes="ormlite-core-4.48.jar"/>
+            <zipfileset dir="${basedir}/../lib" includes="ormlite-jdbc-4.48.jar"/>
+            <zipfileset dir="${basedir}/../lib" includes="easymock-3.3.1.jar"/>
+        </jar>
+    </target>
+</project>

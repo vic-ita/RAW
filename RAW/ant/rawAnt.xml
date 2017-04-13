@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="RAW" default="createJar" basedir=".">	
+	<target name="deleteJar">
+		<delete file="${basedir}/../jars/RAW.jar"></delete>
+	</target>
+	
+	<target name="buildJar">
+		<ant antfile="./distr.xml" target="create_run_jar"></ant>
+	</target>
+	
+	<target name="createJar">
+		<antcall target="deleteJar"></antcall>
+		<antcall target="buildJar"></antcall>
+	</target>
+</project>
