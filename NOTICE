@@ -1,0 +1,59 @@
+RAW DHT
+Copyright (C) 2017 Vincenzo-Maria Cappelleri <vincenzo.cappelleri@gmail.com>
+
+
+This product includes software developed by third parties.
+The following libraries or code from the following software are included in packaged versions of this project:
+
+* Apache Commons CLI
+ * COPYRIGHT: Copyright 2002 The Apache Software Foundation
+ * LICENSE: http://www.apache.org/licenses/LICENSE-2.0.txt (Apache License, Version 2.0)
+ * HOMEPAGE: https://commons.apache.org/proper/commons-cli/
+
+* Apache Commons Codec
+ * COPYRIGHT: Copyright 2002 The Apache Software Foundation
+ * LICENSE: http://www.apache.org/licenses/LICENSE-2.0.txt (Apache License, Version 2.0)
+ * HOMEPAGE: https://commons.apache.org/proper/commons-codec/
+
+* Apache Commons Collections
+ * COPYRIGHT: Copyright 2001 The Apache Software Foundation
+ * LICENSE: http://www.apache.org/licenses/LICENSE-2.0.txt (Apache License, Version 2.0)
+ * HOMEPAGE: https://commons.apache.org/proper/commons-collections/
+
+* Apache Commons Lang
+ * COPYRIGHT: Copyright 2001 The Apache Software Foundation
+ * LICENSE: http://www.apache.org/licenses/LICENSE-2.0.txt (Apache License, Version 2.0)
+ * HOMEPAGE: https://commons.apache.org/proper/commons-lang/
+
+* Guava
+ * COPYRIGHT: Copyright 2007 Google Inc.
+ * LICENSE: http://www.apache.org/licenses/LICENSE-2.0.txt (Apache License, Version 2.0)
+ * HOMEPAGE: https://github.com/google/guava
+
+* HyperSQL
+ * COPYRIGHT: Copyright 2001 The HSQL Development Group
+ * LICENSE: http://hsqldb.org/web/hsqlLicense.html (HSQL License based on BSD License)
+ * HOMEPAGE: http://hsqldb.org/
+
+* Java API for JSON Processing
+ * COPYRIGHT: Copyright 2013 Oracle Corporation
+ * LICENSE: https://jsonp.java.net/license.html (Common Development and Distribution License & GNU General Public License)
+ * HOMEPAGE: https://jsonp.java.net/
+
+* OrmLite - Lightweight Object Relational Mapping (ORM) Java Package
+ * COPYRIGHT: Copyright ORMLite project
+ * LICENSE: http://ormlite.com/javadoc/ormlite-core/doc-files/ormlite_9.html#License (Open Source License)
+ * HOMEPAGE: http://ormlite.com/
+
+The following libraries are required for the tests of this project:
+
+* JUnit
+ * COPYRIGHT: Copyright 2002 JUnit
+ * LICENSE: http://www.opensource.org/licenses/cpl.php (Common Public License Version 1.0)
+ * HOMEPAGE: http://www.junit.org/
+
+* EasyMock
+ * COPYRIGHT: Copyright 2001 EasyMock Contributors
+ * LICENSE: http://www.apache.org/licenses/LICENSE-2.0.txt (Apache License, Version 2.0)
+ * HOMEPAGE: http://easymock.org/
+ 
